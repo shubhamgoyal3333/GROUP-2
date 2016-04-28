@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Welcome"
+        android:textSize="15pt"
+        android:textStyle="bold"
+        android:paddingTop="50dp"
+         />
+
+    <View
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        style="@style/button_text"
+        android:layout_centerInParent="true"
+        android:text="@string/LogoutBtn" />
+    <View
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_heigh1t="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/red_button"
+        style="@style/button_text"
+        android:text="continue to app" />
+
+</LinearLayout>
